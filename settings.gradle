@@ -1,0 +1,2 @@
+rootProject.name='virusquiz'
+include ':app'

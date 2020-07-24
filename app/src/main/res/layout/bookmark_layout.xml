@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/category_bg"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="2dp"/>
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:text="@string/question_ask"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="2dp"/>
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+
+        android:text="@string/anwer_2"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/delete_btn"
+        android:contentDescription="@string/todo" />
+</LinearLayout>
